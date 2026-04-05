@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Brand Colors ── */
+  --color-primary:                 #944a00;
+  --color-primary-container:       #e67e22;
+  --color-primary-fixed:           #ffdcc5;
+  --color-primary-fixed-dim:       #ffb783;
+  --color-on-primary:              #ffffff;
+  --color-on-primary-container:    #502600;
+  --color-on-primary-fixed:        #301400;
+  --color-on-primary-fixed-variant:#713700;
+  --color-inverse-primary:         #ffb783;
+
+  --color-secondary:               #2a6b2c;
+  --color-secondary-container:     #acf4a4;
+  --color-secondary-fixed:         #acf4a4;
+  --color-secondary-fixed-dim:     #91d78a;
+  --color-on-secondary:            #ffffff;
+  --color-on-secondary-container:  #307231;
+  --color-on-secondary-fixed:      #002203;
+  --color-on-secondary-fixed-variant:#0c5216;
+
+  --color-tertiary:                #835400;
+  --color-tertiary-container:      #d28a00;
+  --color-tertiary-fixed:          #ffddb5;
+  --color-tertiary-fixed-dim:      #ffb957;
+  --color-on-tertiary:             #ffffff;
+  --color-on-tertiary-container:   #472b00;
+  --color-on-tertiary-fixed:       #2a1800;
+  --color-on-tertiary-fixed-variant:#643f00;
+
+  --color-background:              #fff8f6;
+  --color-surface:                 #fff8f6;
+  --color-surface-bright:          #fff8f6;
+  --color-surface-dim:             #fbd1c4;
+  --color-surface-variant:         #ffdbd0;
+  --color-surface-container-lowest:#ffffff;
+  --color-surface-container-low:   #fff1ed;
+  --color-surface-container:       #ffe9e3;
+  --color-surface-container-high:  #ffe2da;
+  --color-surface-container-highest:#ffdbd0;
+  --color-surface-tint:            #944a00;
+  --color-on-surface:              #2c160e;
+  --color-on-surface-variant:      #564337;
+  --color-on-background:           #2c160e;
+  --color-inverse-surface:         #442a22;
+  --color-inverse-on-surface:      #ffede8;
+
+  --color-outline:                 #897365;
+  --color-outline-variant:         #dcc1b1;
+
+  --color-error:                   #ba1a1a;
+  --color-error-container:         #ffdad6;
+  --color-on-error:                #ffffff;
+  --color-on-error-container:      #93000a;
+
+  /* ── Typography ── */
+  --font-headline: 'Epilogue', sans-serif;
+  --font-body:     'Inter', sans-serif;
+  --font-label:    'Be Vietnam Pro', sans-serif;
+  --font-menu:     'Roboto Slab', serif;
+  --font-urdu:     'Noto Nastaliq Urdu', serif;
+
+  /* ── Border Radius ── */
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg:      0.25rem;
+  --radius-xl:      0.5rem;
+  --radius-2xl:     1rem;
+  --radius-3xl:     1.5rem;
+  --radius-full:    9999px;
+
+  /* ── Shadows (warm, ambient) ── */
+  --shadow-warm-sm:  0 2px 8px 0 rgba(148, 74, 0, 0.06);
+  --shadow-warm:     0 4px 24px 0 rgba(148, 74, 0, 0.06);
+  --shadow-warm-lg:  0 8px 40px 0 rgba(148, 74, 0, 0.10);
+  --shadow-warm-xl:  0 16px 64px 0 rgba(148, 74, 0, 0.12);
+}
+
+/* Material Symbols axis settings */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Urdu decorative watermark */
+.urdu-watermark {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  opacity: 0.03;
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  z-index: 0;
+  line-height: 1;
+}
+
+/* Hide scrollbar for horizontal tab scroll on mobile */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Selection color */
+::selection {
+  background-color: #e67e22;
+  color: #ffffff;
+}
+
+body {
+  background-color: #fff8f6;
+  color: #2c160e;
+}
+
+/* Scroll reveal animation */
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(2rem);
+  transition: opacity 600ms cubic-bezier(0.16, 1, 0.3, 1),
+              transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Urdu drift animation */
+@keyframes urdu-drift {
+  0%   { transform: translateY(0px) rotate(0deg); }
+  50%  { transform: translateY(-12px) rotate(0.5deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+.urdu-watermark {
+  animation: urdu-drift 20s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .urdu-watermark { animation: none; }
+  .reveal-hidden {
+    opacity: 1;
+    transform: none;
+  }
+}
