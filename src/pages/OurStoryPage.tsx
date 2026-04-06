@@ -62,7 +62,7 @@ export default function OurStoryPage() {
             />
             <div className="relative rounded-xl overflow-hidden aspect-[4/5]">
               <img
-                src="https://placehold.co/400x500/ffe9e3/944a00?text=Spice+Market"
+                src="/images/spice-market.jpg"
                 alt="Vintage spice market photograph with colorful spices"
                 className="w-full h-full object-cover"
               />
@@ -97,7 +97,7 @@ export default function OurStoryPage() {
             />
             <div className="relative rounded-xl overflow-hidden aspect-[4/5]">
               <img
-                src="https://placehold.co/400x500/ffddb5/835400?text=Kitchen+Fire"
+                src="/images/kitchen-fire.jpg"
                 alt="Chef tossing biryani over open flame"
                 className="w-full h-full object-cover"
               />

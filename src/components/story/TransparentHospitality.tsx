@@ -65,7 +65,7 @@ export default function TransparentHospitality() {
           {/* Right — map image */}
           <div className="rounded-2xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 h-[400px]">
             <img
-              src="https://placehold.co/600x400/ffe9e3/944a00?text=Map"
+              src="/images/map-atmospheric.jpg"
               alt="Map showing the restaurant location in the Cultural District"
               className="w-full h-full object-cover"
             />

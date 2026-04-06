@@ -1,16 +1,16 @@
 const BREAK_IMAGES = [
   {
-    src: 'https://placehold.co/600x256/dcc1b1/564337?text=Spices',
+    src: '/images/visual-break-spices.jpg',
     alt: 'Close-up of raw Pakistani spices including cardamom, cinnamon, and dried chilies',
     grayscale: true,
   },
   {
-    src: 'https://placehold.co/600x256/ffe9e3/944a00?text=Kebabs',
+    src: '/images/visual-break-kebabs.jpg',
     alt: 'Sizzling seekh kebab platter with smoke rising',
     grayscale: false,
   },
   {
-    src: 'https://placehold.co/600x256/dcc1b1/564337?text=Chutney',
+    src: '/images/visual-break-chutney.jpg',
     alt: 'Vibrant green mint chutney being drizzled from a wooden spoon',
     grayscale: true,
   },

@@ -1,4 +1,4 @@
-import StarRating from '../shared/StarRating';
+import StarRating from "../shared/StarRating";
 
 interface SideDishCardProps {
   name: string;
@@ -20,7 +20,7 @@ export default function SideDishCard({
   keyIngredients,
 }: SideDishCardProps) {
   return (
-    <div className="flex bg-surface-container-highest rounded-full overflow-hidden group flex-1">
+    <div className="flex bg-surface-container-highest rounded overflow-hidden group flex-1">
       <div className="w-1/3 overflow-hidden relative">
         <img
           src={imageSrc}
@@ -43,13 +43,17 @@ export default function SideDishCard({
       </div>
       <div className="w-2/3 p-6 flex flex-col justify-center">
         <div className="flex justify-between items-start mb-2">
-          <h4 className="text-xl font-headline font-bold text-secondary">{name}</h4>
+          <h4 className="text-xl font-headline font-bold text-secondary">
+            {name}
+          </h4>
           <span className="text-primary font-bold">{price}</span>
         </div>
         <div className="mb-3">
           <StarRating rating={rating} size="sm" />
         </div>
-        <p className="text-sm text-on-surface-variant font-body">{description}</p>
+        <p className="text-sm text-on-surface-variant font-body">
+          {description}
+        </p>
       </div>
     </div>
   );

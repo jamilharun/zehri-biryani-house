@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import heroImg from '../../assets/hero.png';
 import { useParallax } from '../../hooks/useParallax';
 import StarRating from '../shared/StarRating';
 import UrduWatermark from '../shared/UrduWatermark';
@@ -13,7 +12,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent z-10" />
         <img
-          src={heroImg}
+          src="/images/hero-main.jpg"
           alt="Overhead shot of a traditional Pakistani feast with steaming biryani and fresh naan"
           className="w-full h-full object-cover object-right"
           style={{ transform: `translateY(${parallaxOffset}px)` }}
@@ -93,7 +92,7 @@ export default function HeroSection() {
             <div className="relative z-10 flex flex-col items-center">
               <div className="w-32 h-32 rounded-full border-4 border-tertiary-container p-1 overflow-hidden mb-4">
                 <img
-                  src="https://placehold.co/128x128/ffddb5/835400?text=Karahi"
+                  src="/images/karahi-badge.jpg"
                   alt="Chef's Signature Lamb Karahi"
                   className="w-full h-full object-cover rounded-full"
                 />

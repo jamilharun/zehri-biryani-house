@@ -37,18 +37,18 @@ export default function SpaceSection() {
         {/* Right image masonry */}
         <div className="lg:col-span-3 grid grid-cols-2 gap-4 mt-8 lg:mt-0">
           <img
-            src="https://placehold.co/400x600/ffddb5/835400?text=Interior"
+            src="/images/interior-seating.jpg"
             alt="Modern restaurant interior featuring vibrant orange velvet chairs and dark wood tables"
             className="w-full h-full object-cover rounded-xl shadow-lg"
           />
           <div className="grid gap-4">
             <img
-              src="https://placehold.co/400x300/ffe9e3/944a00?text=Truck+Art"
+              src="/images/truck-art.jpg"
               alt="Colorful Pakistani truck art painted on a restaurant wall"
               className="w-full aspect-square object-cover rounded-xl shadow-lg"
             />
             <img
-              src="https://placehold.co/400x300/ffddb5/835400?text=Brass+Lamp"
+              src="/images/brass-lamp.jpg"
               alt="Traditional Pakistani brass lamp casting intricate shadows on a textured cream wall"
               className="w-full aspect-square object-cover rounded-xl shadow-lg"
             />

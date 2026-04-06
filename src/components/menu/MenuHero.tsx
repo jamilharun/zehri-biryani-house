@@ -22,7 +22,7 @@ export default function MenuHero() {
         <div className="w-full md:w-1/2 relative">
           <div className="aspect-square rounded-full overflow-hidden border-8 border-surface-container-highest shadow-2xl relative z-10">
             <img
-              src="https://placehold.co/600x600/ffe9e3/944a00?text=Biryani"
+              src="/images/menu-hero-biryani.jpg"
               alt="Overhead close-up of premium lamb biryani in a traditional copper pot"
               className="w-full h-full object-cover"
             />

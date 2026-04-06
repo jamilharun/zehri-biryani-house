@@ -6,9 +6,9 @@ import SpiceIndicator from '../shared/SpiceIndicator';
 import StarRating from '../shared/StarRating';
 import { MENU_ITEMS } from '../../data/menu';
 
-const PLACEHOLDER_FEATURED = 'https://placehold.co/700x500/ffe9e3/944a00?text=Nalli+Biryani';
-const PLACEHOLDER_SEEKH   = 'https://placehold.co/300x300/ffddb5/835400?text=Seekh+Kebab';
-const PLACEHOLDER_BUTTER  = 'https://placehold.co/300x300/ffddb5/835400?text=Butter+Chicken';
+const PLACEHOLDER_FEATURED = '/images/nalli-biryani-special.jpg';
+const PLACEHOLDER_SEEKH = '/images/seekh-kebab-special.jpg';
+const PLACEHOLDER_BUTTER = '/images/butter-chicken-special.jpg';
 
 const nalliBiryani    = MENU_ITEMS.find((i) => i.id === 'biryani-nalli')!;
 const seekhKebab      = MENU_ITEMS.find((i) => i.id === 'bbq-seekh-kebab')!;

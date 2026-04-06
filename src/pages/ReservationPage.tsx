@@ -38,7 +38,7 @@ export default function ReservationPage() {
         {/* Mobile: Hero — full-bleed image */}
         <div className="md:hidden relative h-[265px] overflow-hidden">
           <img
-            src="https://placehold.co/800x265/ffe9e3/944a00?text=Reservation+Hero"
+            src="/images/reservation-hero.jpg"
             alt="Table setting with candlelight for a Pakistani dining experience"
             className="w-full h-full object-cover"
           />

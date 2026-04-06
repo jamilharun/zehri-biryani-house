@@ -16,7 +16,7 @@ export default function FeaturedDishCard({
   badge,
 }: FeaturedDishCardProps) {
   return (
-    <div className="md:col-span-7 group relative overflow-hidden rounded-full h-[500px]">
+    <div className="md:col-span-7 group relative overflow-hidden rounded h-[500px]">
       <img
         src={imageSrc}
         alt={imageAlt}
@@ -31,10 +31,16 @@ export default function FeaturedDishCard({
                 {badge}
               </span>
             )}
-            <h3 className="text-3xl font-headline font-bold text-white">{name}</h3>
-            <p className="text-white/80 font-body text-sm mt-1">{description}</p>
+            <h3 className="text-3xl font-headline font-bold text-white">
+              {name}
+            </h3>
+            <p className="text-white/80 font-body text-sm mt-1">
+              {description}
+            </p>
           </div>
-          <span className="text-2xl font-headline font-bold text-[#F9A825]">{price}</span>
+          <span className="text-2xl font-headline font-bold text-[#F9A825]">
+            {price}
+          </span>
         </div>
       </div>
     </div>

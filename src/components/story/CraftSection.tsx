@@ -3,19 +3,19 @@ import CraftImageTile from './CraftImageTile';
 
 const CRAFT_IMAGES = [
   {
-    src: 'https://placehold.co/500x500/ffe9e3/944a00?text=BBQ+Grill',
+    src: '/images/bbq-grill.jpg',
     alt: 'Pakistani chef skillfully rotating skewers of seekh kebabs over glowing charcoal',
     caption: 'The Art of BBQ',
     offset: false,
   },
   {
-    src: 'https://placehold.co/500x500/ffddb5/835400?text=Dum+Biryani',
+    src: '/images/dum-biryani-craft.jpg',
     alt: 'Chef lifting the dum seal from a massive biryani pot releasing fragrant steam',
     caption: 'Mastering the Dum',
     offset: true,
   },
   {
-    src: 'https://placehold.co/500x500/ffe9e3/944a00?text=Naan+Hands',
+    src: '/images/naan-hands.jpg',
     alt: 'Artisanal hands preparing fresh naan bread dough against rustic wooden background',
     caption: 'Hand-Kneaded Tradition',
     offset: false,

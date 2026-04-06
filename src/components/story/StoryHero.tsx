@@ -52,7 +52,7 @@ export default function StoryHero() {
           aria-hidden="true"
         />
         <img
-          src="https://placehold.co/600x750/ffe9e3/944a00?text=Chef"
+          src="/images/chef-portrait.jpg"
           alt="Master Pakistani chef hand-sprinkling aromatic spices over a large copper pot of steaming biryani"
           className="w-full aspect-[4/5] object-cover rounded-full shadow-2xl border-[16px] border-surface-container-lowest"
         />

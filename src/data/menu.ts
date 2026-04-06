@@ -48,6 +48,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Kashmiri Chilies', 'Dried Plums', '12-hr Lamb', 'House Masala'],
     imageAlt: 'Aghaz Special Sindhi Biryani in a clay pot',
+    imageSrc: '/images/menu/biryani-sindhi.jpg',
   },
   {
     id: 'biryani-saffron-chicken',
@@ -60,6 +61,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Kashmiri Saffron', 'Bone-in Chicken', 'Rose Water', 'Fried Onions'],
     imageAlt: 'Royal Saffron Chicken Biryani in a copper pot',
+    imageSrc: '/images/menu/biryani-saffron-chicken.jpg',
   },
   {
     id: 'biryani-vegetable-pulao',
@@ -72,6 +74,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Farm Vegetables', 'Cloves', 'Star Anise', 'Dum Steam'],
     imageAlt: 'Vegetable Pulao Dum served in a bowl',
+    imageSrc: '/images/menu/biryani-vegetable-pulao.jpg',
   },
   {
     id: 'biryani-nalli',
@@ -85,6 +88,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Bone Marrow', 'Aged Basmati', 'Kewra Water', 'Dum Steam'],
     imageAlt: 'Nalli Biryani with bone marrow in copper pot',
+    imageSrc: '/images/menu/biryani-nalli.jpg',
   },
   // ── Handi & Karahi ──
   {
@@ -99,6 +103,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Tender Lamb', 'Whole Tomatoes', 'Fresh Ginger', 'Coal Smoke'],
     imageAlt: "Chef's Signature Lamb Karahi in black wok",
+    imageSrc: '/images/menu/handi-lamb-karahi.jpg',
   },
   {
     id: 'handi-butter-chicken',
@@ -111,6 +116,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Charcoal Tikka', 'Cream', 'Fenugreek', 'Kasuri Methi'],
     imageAlt: 'Aghaz Butter Chicken in clay bowl',
+    imageSrc: '/images/menu/handi-butter-chicken.jpg',
   },
   {
     id: 'handi-peshawari-karahi',
@@ -123,6 +129,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Bone-in Chicken', 'Green Chilies', 'Whole Coriander', 'Ghee'],
     imageAlt: 'Peshawari Chicken Karahi in black wok',
+    imageSrc: '/images/menu/handi-peshawari-karahi.jpg',
   },
   {
     id: 'handi-mutton-handi',
@@ -136,6 +143,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['4-hr Mutton', 'Clay Pot', 'Black Cardamom', 'Saffron'],
     imageAlt: 'Slow-Cooked Mutton Handi in clay pot',
+    imageSrc: '/images/menu/handi-mutton-handi.jpg',
   },
   // ── BBQ ──
   {
@@ -149,6 +157,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Minced Beef', 'Green Chilies', 'Coal Smoke', 'House Masala'],
     imageAlt: 'Smoked Seekh Kebabs on charcoal grill',
+    imageSrc: '/images/menu/bbq-seekh-kebab.jpg',
   },
   {
     id: 'bbq-chicken-tikka',
@@ -161,6 +170,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Yogurt Marinade', 'Red Spice Mix', 'Charcoal', 'Chaat Masala'],
     imageAlt: 'Chicken Tikka charred to perfection',
+    imageSrc: '/images/menu/bbq-chicken-tikka.jpg',
   },
   {
     id: 'bbq-afghani-boti',
@@ -173,6 +183,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['White Pepper', 'Cream', 'Lemon', 'Cardamom'],
     imageAlt: 'Afghani Boti chicken skewers',
+    imageSrc: '/images/menu/bbq-afghani-boti.jpg',
   },
   {
     id: 'bbq-lamb-chops',
@@ -186,6 +197,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isHalal: true,
     keyIngredients: ['Overnight Marinade', 'Chaat Masala', 'Charcoal', 'Herb Butter'],
     imageAlt: 'Lamb Chops with chaat masala',
+    imageSrc: '/images/menu/bbq-lamb-chops.jpg',
   },
   // ── Sides ──
   {
@@ -198,6 +210,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sides',
     isHalal: true,
     imageAlt: 'Garlic Butter Naan freshly baked',
+    imageSrc: '/images/menu/sides-garlic-naan.jpg',
   },
   {
     id: 'sides-raita',
@@ -209,6 +222,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sides',
     isHalal: true,
     imageAlt: 'Raita yogurt dip in small bowl',
+    imageSrc: '/images/menu/sides-raita.jpg',
   },
   {
     id: 'sides-kachumber',
@@ -220,6 +234,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sides',
     isHalal: true,
     imageAlt: 'Kachumber Salad with chaat masala',
+    imageSrc: '/images/menu/sides-kachumber.jpg',
   },
   {
     id: 'sides-masala-fries',
@@ -231,6 +246,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sides',
     isHalal: true,
     imageAlt: 'Masala Fries with chaat spice',
+    imageSrc: '/images/menu/sides-masala-fries.jpg',
   },
   // ── Drinks ──
   {
@@ -243,6 +259,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'drinks',
     isHalal: true,
     imageAlt: 'Mango Lassi in a tall glass',
+    imageSrc: '/images/menu/drinks-mango-lassi.jpg',
   },
   {
     id: 'drinks-pakola',
@@ -254,6 +271,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'drinks',
     isHalal: true,
     imageAlt: 'Pakola ice cream soda',
+    imageSrc: '/images/menu/drinks-pakola.jpg',
   },
   {
     id: 'drinks-kashmiri-tea',
@@ -265,6 +283,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'drinks',
     isHalal: true,
     imageAlt: 'Kashmiri Pink Tea in traditional cup',
+    imageSrc: '/images/menu/drinks-kashmiri-tea.jpg',
   },
   {
     id: 'drinks-lime-soda',
@@ -276,6 +295,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'drinks',
     isHalal: true,
     imageAlt: 'Fresh Lime Soda with mint',
+    imageSrc: '/images/menu/drinks-lime-soda.jpg',
   },
   // ── Desserts ──
   {
@@ -288,6 +308,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'desserts',
     isHalal: true,
     imageAlt: 'Gulab Jamun in rosewater syrup',
+    imageSrc: '/images/menu/desserts-gulab-jamun.jpg',
   },
   {
     id: 'desserts-kheer',
@@ -299,5 +320,6 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'desserts',
     isHalal: true,
     imageAlt: 'Traditional Kheer rice pudding',
+    imageSrc: '/images/menu/desserts-kheer.jpg',
   },
 ];

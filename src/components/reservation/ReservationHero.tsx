@@ -28,7 +28,7 @@ export default function ReservationHero() {
       <div className="relative mt-8 lg:mt-0">
         <div className="aspect-[4/3] rounded-full overflow-hidden shadow-2xl border-[12px] border-surface-container-lowest">
           <img
-            src="https://placehold.co/600x450/ffe9e3/944a00?text=Dining+Table"
+            src="/images/dining-table.jpg"
             alt="Decorated Pakistani dining table with warm candlelight setting"
             className="w-full h-full object-cover"
           />
