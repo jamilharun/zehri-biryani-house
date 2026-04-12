@@ -168,7 +168,7 @@ export default function ReservationPage() {
               style={{ fontFamily: "'Noto Nastaliq Urdu', serif" }}
               aria-hidden="true"
             >
-              اغاز
+              زہری
             </span>
           </div>
         </div>

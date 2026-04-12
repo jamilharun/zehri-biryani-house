@@ -7,7 +7,7 @@ interface UrduWatermarkProps {
 }
 
 export default function UrduWatermark({
-  text = 'اغاز',
+  text = 'زہری',
   size = 'text-[20rem]',
   className = '',
   color = 'text-primary',

@@ -7,7 +7,7 @@ export default function MapCard() {
     <div className="flex-grow rounded-4xl overflow-hidden shadow-sm border border-outline-variant/20 min-h-[300px] relative">
       <img
         src="/images/map-location-placeholder.jpg"
-        alt="Map showing the Aghaz restaurant location in the Cultural District"
+        alt="Map showing the Zehri Biryani House location in the Cultural District"
         className="w-full h-full object-cover grayscale opacity-60"
       />
       <div className="absolute inset-0 bg-primary/10 flex items-center justify-center">

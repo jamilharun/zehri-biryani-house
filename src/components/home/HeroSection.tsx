@@ -33,7 +33,7 @@ export default function HeroSection() {
               stars
             </span>
             <span className="text-sm font-label font-medium text-on-secondary-container">
-              Authentic Heritage BBQ
+              Authentic Biryani Heritage
             </span>
           </div>
 
@@ -48,8 +48,8 @@ export default function HeroSection() {
 
           {/* Body */}
           <p className="text-lg text-on-surface-variant max-w-md font-body leading-relaxed">
-            From the charcoal pits of Lahore to your plate. The smoke, the spice, and the
-            slow-cooked patience of Pakistani BBQ — now in Bacolod.
+            Rich, aromatic Pakistani biryani prepared with bold spices and slow-cooked perfection
+            — a deep respect for classic recipes that bring comfort and heat in every bite.
           </p>
 
           {/* CTAs */}

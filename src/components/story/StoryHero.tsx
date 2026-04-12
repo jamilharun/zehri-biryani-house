@@ -12,17 +12,16 @@ export default function StoryHero() {
           Heritage &amp; Legacy
         </span>
         <h1 className="font-headline text-5xl lg:text-7xl font-extrabold text-on-background mb-8 leading-tight">
-          Aghaz:{' '}
-          <span className="text-secondary">The Beginning.</span>
+          Zehri Biryani House:{' '}
+          <span className="text-secondary">The Heart of Flavor.</span>
         </h1>
         <p className="text-lg lg:text-xl text-on-surface-variant leading-relaxed mb-10 max-w-xl">
-          In Urdu,{' '}
+          At{' '}
           <span className="font-bold text-secondary">
-            Aghaz (اغاز)
-          </span>{' '}
-          means 'The Beginning'. It represents our commitment to returning to the origins of
-          authentic Pakistani cuisine — where every spice is freshly ground and every recipe tells
-          the story of our ancestors.
+            Zehri Biryani House
+          </span>
+          , every dish is a celebration of authentic Pakistani cuisine — where bold spices meet
+          slow-cooked perfection and every recipe carries generations of traditional flavor.
         </p>
         <div className="flex flex-wrap items-center gap-6">
           <Link

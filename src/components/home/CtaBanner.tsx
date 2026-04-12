@@ -25,7 +25,7 @@ export default function CtaBanner() {
               Ready for a Feast?
             </h3>
             <p className="text-secondary-container font-body">
-              Bacolod's first Pakistani BBQ — charcoal-fired and halal-certified.
+              Bold spices, slow-cooked biryani — a deep respect for classic Pakistani recipes.
             </p>
           </div>
 

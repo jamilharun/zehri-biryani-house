@@ -30,14 +30,14 @@ export default function Navbar({ activePage }: NavbarProps) {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <span className="text-2xl font-headline font-bold text-secondary tracking-tight">
-              Aghaz
+              Zehri
             </span>
             <span
               className="text-xl text-secondary opacity-50 leading-none"
               style={{ fontFamily: "'Noto Nastaliq Urdu', serif" }}
               aria-hidden="true"
             >
-              اغاز
+              زہری
             </span>
           </div>
 
@@ -96,7 +96,7 @@ export default function Navbar({ activePage }: NavbarProps) {
                 className="absolute bottom-20 -right-8 text-[12rem] text-primary opacity-[0.03] pointer-events-none select-none leading-none"
                 style={{ fontFamily: "'Noto Nastaliq Urdu', serif" }}
               >
-                اغاز
+                زہری
               </span>
 
               {/* Close button */}

@@ -43,14 +43,13 @@ export default function OurStoryPage() {
               Heritage &amp; Legacy
             </span>
             <h1 className="font-headline text-4xl font-extrabold text-on-background leading-tight mb-6">
-              Aghaz:{' '}
-              <span className="text-secondary">The Beginning.</span>
+              Zehri{' '}
+              <span className="text-secondary">Biryani House.</span>
             </h1>
             <p className="text-on-surface-variant font-body leading-loose mb-6">
-              In Urdu, <span className="font-bold text-secondary">Aghaz (اغاز)</span> means 'The
-              Beginning'. It represents our commitment to returning to the origins of authentic
-              Pakistani cuisine — where every spice is freshly ground and every recipe tells the
-              story of our ancestors.
+              <span className="font-bold text-secondary">Zehri Biryani House</span> was born from
+              a deep love for authentic Pakistani food — where bold spices meet slow-cooked
+              perfection and every plate tells the story of tradition and heritage.
             </p>
           </div>
 
@@ -83,7 +82,7 @@ export default function OurStoryPage() {
               The Secret is in the Soil
             </h2>
             <p className="text-on-surface-variant font-body leading-loose">
-              Every ingredient at Aghaz is sourced with intention. Our spices travel from the
+              Every ingredient at Zehri Biryani House is sourced with intention. Our spices travel from the
               fertile plains of Punjab, our meats from trusted halal farms, and our rice from the
               aged basmati fields of the Himalayan foothills. Nothing arrives without a story.
             </p>
@@ -139,7 +138,7 @@ export default function OurStoryPage() {
               style={{ fontFamily: "'Noto Nastaliq Urdu', serif" }}
               aria-hidden="true"
             >
-              اغاز
+              زہری
             </span>
           </div>
         </div>

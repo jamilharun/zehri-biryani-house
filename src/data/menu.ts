@@ -38,7 +38,7 @@ export const MENU_ITEMS: MenuItem[] = [
   // ── Biryani ──
   {
     id: 'biryani-sindhi',
-    name: 'Aghaz Special Sindhi Biryani',
+    name: 'Zehri Special Sindhi Biryani',
     description: 'Spicy basmati rice with succulent lamb, dried plums, and our secret 21-spice blend.',
     price: 18.50,
     currency: 'PHP',
@@ -47,7 +47,7 @@ export const MENU_ITEMS: MenuItem[] = [
     badges: ['signature'],
     isHalal: true,
     keyIngredients: ['Kashmiri Chilies', 'Dried Plums', '12-hr Lamb', 'House Masala'],
-    imageAlt: 'Aghaz Special Sindhi Biryani in a clay pot',
+    imageAlt: 'Zehri Special Sindhi Biryani in a clay pot',
     imageSrc: '/images/menu/biryani-sindhi.jpg',
   },
   {
@@ -107,7 +107,7 @@ export const MENU_ITEMS: MenuItem[] = [
   },
   {
     id: 'handi-butter-chicken',
-    name: 'Aghaz Butter Chicken',
+    name: 'Zehri Butter Chicken',
     description: 'Creamy, tomato-based delight with charcoal-grilled chicken tikka.',
     price: 21.00,
     currency: 'PHP',
@@ -115,7 +115,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'handi-karahi',
     isHalal: true,
     keyIngredients: ['Charcoal Tikka', 'Cream', 'Fenugreek', 'Kasuri Methi'],
-    imageAlt: 'Aghaz Butter Chicken in clay bowl',
+    imageAlt: 'Zehri Butter Chicken in clay bowl',
     imageSrc: '/images/menu/handi-butter-chicken.jpg',
   },
   {

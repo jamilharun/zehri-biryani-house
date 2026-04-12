@@ -13,8 +13,8 @@ export default function MenuHero() {
             On A Plate
           </h1>
           <p className="text-on-surface-variant max-w-md font-menu text-lg leading-relaxed">
-            From the charcoal pits of Lahore to your table. Every spice is hand-ground, every grain
-            of rice meticulously aged.
+            Rich, aromatic Pakistani dishes prepared with bold spices and slow-cooked perfection
+            — every grain of rice meticulously aged.
           </p>
         </div>
 

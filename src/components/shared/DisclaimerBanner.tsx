@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const STORAGE_KEY = 'aghaz_disclaimer_dismissed';
+const STORAGE_KEY = 'zehri_disclaimer_dismissed';
 
 export default function DisclaimerBanner() {
   const [visible, setVisible] = useState(
@@ -19,11 +19,11 @@ export default function DisclaimerBanner() {
       <div className="flex-1 flex justify-center">
         <span className="text-[11px] font-label tracking-wide text-on-surface-variant opacity-80 text-center leading-relaxed">
           <span className="hidden sm:inline">
-            This is a portfolio project by Jamil Harun. Aghaz Biryani &amp; BBQ is a real
+            This is a portfolio project by Jamil Harun. Zehri Biryani House is a real
             restaurant — this site is an independent design work, not affiliated with them.
           </span>
           <span className="sm:hidden">
-            Portfolio project. Not the official Aghaz Biryani &amp; BBQ website.
+            Portfolio project. Not the official Zehri Biryani House website.
           </span>
         </span>
       </div>

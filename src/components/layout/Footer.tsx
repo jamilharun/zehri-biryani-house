@@ -13,9 +13,9 @@ export default function Footer({ variant = 'desktop-full' }: FooterProps) {
     return (
       <footer className="bg-[#FDF3E7] flex flex-col items-center text-center px-8 py-8 mb-20">
         <p className="text-xs text-on-surface-variant mb-4">
-          © {new Date().getFullYear()} Aghaz Biryani &amp; BBQ. All Rights Reserved.{' '}
+          © {new Date().getFullYear()} Zehri Biryani House. All Rights Reserved.{' '}
           <span aria-hidden="true" style={{ fontFamily: "'Noto Nastaliq Urdu', serif" }}>
-            اغاز
+            زہری
           </span>
         </p>
         <div className="flex gap-6">
@@ -32,9 +32,9 @@ export default function Footer({ variant = 'desktop-full' }: FooterProps) {
   return (
     <footer className="bg-surface flex flex-col md:flex-row justify-between items-center px-12 py-10 w-full font-body text-sm">
       <div className="flex flex-col gap-2 items-center md:items-start mb-6 md:mb-0">
-        <div className="text-xl font-headline text-primary font-bold">Aghaz Biryani &amp; BBQ</div>
+        <div className="text-xl font-headline text-primary font-bold">Zehri Biryani House</div>
         <p className="text-on-surface-variant max-w-xs text-center md:text-left">
-          Pakistani chefs. Halal-certified. Open-flame BBQ. Bacolod City &amp; Cebu.
+          Rich, aromatic biryani. Bold spices. Slow-cooked perfection.
         </p>
       </div>
 
@@ -47,9 +47,9 @@ export default function Footer({ variant = 'desktop-full' }: FooterProps) {
       </div>
 
       <div className="text-on-surface-variant text-xs">
-        © {new Date().getFullYear()} Aghaz Biryani &amp; BBQ. All Rights Reserved.{' '}
+        © {new Date().getFullYear()} Zehri Biryani House. All Rights Reserved.{' '}
         <span aria-hidden="true" style={{ fontFamily: "'Noto Nastaliq Urdu', serif" }}>
-          اغاز
+          زہری
         </span>
       </div>
     </footer>

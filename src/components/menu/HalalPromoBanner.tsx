@@ -19,7 +19,7 @@ export default function HalalPromoBanner() {
           </h2>
           <p className="opacity-80 text-lg font-body">
             We source only the finest grain-fed meats and hand-selected whole spices to ensure the
-            heritage of Aghaz remains untainted.
+            heritage of Zehri Biryani House remains untainted.
           </p>
           <button className="bg-primary-container text-on-primary-container px-8 py-4 rounded-xl font-headline font-bold text-lg hover:scale-105 active:scale-95 transition-all shadow-lg">
             View Certification

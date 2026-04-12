@@ -17,7 +17,7 @@ export default function ReservationHero() {
         </h1>
         <p className="text-lg text-on-surface-variant max-w-lg mb-8 leading-relaxed">
           Pull up a chair. Our charcoal grills are already burning, the karahi is on, and there is
-          always room at the Aghaz table.
+          always room at the Zehri table.
         </p>
         <div className="flex flex-wrap gap-4 items-center">
           <HalalBadge variant="pill" />
