@@ -46,11 +46,21 @@ export default function Footer({ variant = 'desktop-full' }: FooterProps) {
         ))}
       </div>
 
-      <div className="text-on-surface-variant text-xs">
+      <div className="text-on-surface-variant text-xs text-center md:text-right">
         © {new Date().getFullYear()} Zehri Biryani House. All Rights Reserved.{' '}
         <span aria-hidden="true" style={{ fontFamily: "'Noto Nastaliq Urdu', serif" }}>
           زہری
         </span>
+        <br />
+        Built by{' '}
+        <a
+          href="https://portfolio.jamilharun.workers.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-primary transition-colors underline underline-offset-2"
+        >
+          Jamil Harun
+        </a>
       </div>
     </footer>
   );
